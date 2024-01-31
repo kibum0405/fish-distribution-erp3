@@ -12,6 +12,7 @@ import OrderOrderManager from "./components/listers/OrderOrderCards"
 import OrderOrderDetail from "./components/listers/OrderOrderDetail"
 
 
+
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -37,6 +38,7 @@ export default new Router({
                 name: 'OrderOrderDetail',
                 component: OrderOrderDetail
             },
+
 
 
 
